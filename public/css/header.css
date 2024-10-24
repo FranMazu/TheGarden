@@ -1,11 +1,15 @@
 .headerBar {
+    position: fixed; /* Mantiene el header en la parte superior */
+    top: 0; /* Alinea el header en la parte superior */
+    left: 0; /* Alinea el header a la izquierda */
+    right: 0; /* Alinea el header a la derecha */
     background-color: rgba(117, 164, 112, 0.7);
     text-align: center;
     padding: 5px 0;
     margin: 5px;
     border-radius: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    
+    z-index: 1000; /* Asegura que el header esté por encima de otros elementos */
 }
 
 .headerTitleContainer {
@@ -17,7 +21,6 @@
     font-weight: bold;
     margin: 0;
     font-family: 'Bai Jamjuree';
-
 }
 
 .headerSubtitleContainer {
@@ -25,32 +28,39 @@
 }
 
 .headerSubtitle {
-    margin-left: 4rem;
+    margin-left: 4rem; /* Espacio a la izquierda del subtítulo */
     font-size: 1.2rem; /* Tamaño del subtítulo */
     margin-top: 0px; 
     margin-bottom: 0; 
     color: #ffffff; 
-    
 }
 
-.btnsImgContainer{
+.btnsImgContainer {
     margin-top: -15px;
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 10px;
+    gap: 5px;
 }
 
-.navBtns{
+.navBtns {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 10px;
+    gap: 5px;
+    padding: 2px;
+    
 }
 
-.btnNavegation{
+.btnNavegation {
     background-color: white;
     border-radius: 5px;
     border: none;
     font-size: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Ajuste para el contenido principal */
+body {
+    margin-top: 80px; /* Ajusta este valor según la altura de tu header */
 }
