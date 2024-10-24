@@ -1,0 +1,56 @@
+.headerBar {
+    background-color: rgba(117, 164, 112, 0.7);
+    text-align: center;
+    padding: 5px 0;
+    margin: 5px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    
+}
+
+.headerTitleContainer {
+    font-size: 45px; 
+}
+
+.headerTitle {
+    font-size: 2.3rem; 
+    font-weight: bold;
+    margin: 0;
+    font-family: 'Bai Jamjuree';
+
+}
+
+.headerSubtitleContainer {
+    margin: 0; /* Elimina márgenes adicionales */
+}
+
+.headerSubtitle {
+    margin-left: 4rem;
+    font-size: 1.2rem; /* Tamaño del subtítulo */
+    margin-top: 0px; 
+    margin-bottom: 0; 
+    color: #ffffff; 
+    
+}
+
+.btnsImgContainer{
+    margin-top: -15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.navBtns{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.btnNavegation{
+    background-color: white;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+}

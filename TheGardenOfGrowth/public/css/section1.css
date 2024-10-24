@@ -1,0 +1,31 @@
+
+.containerSection1{
+    margin: 1%;
+}
+.section1{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.wppBtn{
+    border-radius: 50%;
+    border: 2px solid white;
+    height: 80px;
+    width: 80px;
+}
+.slider{
+    border-radius: 20px;
+    border: 2px solid rgb(214, 5, 241);
+    height: 180px;
+    width: 180px;
+
+}
+.igBtn{
+    border-radius: 50%;
+    border: 2px solid white;
+    height: 80px;
+    width: 80px;
+}
