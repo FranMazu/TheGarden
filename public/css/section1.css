@@ -1,30 +1,41 @@
+/* Contenedor principal */
 .containerSection1 {
     margin: 1%;
 }
 
 .section1 {
     display: flex;
-    justify-content: center; /* Centra todo el contenido horizontalmente */
-    align-items: center; /* Alinea los elementos verticalmente */
-    gap: 5px;
-    margin-top: 12rem; /* Ajusta este valor según la altura de tu header */
-
+    justify-content: center; /* Mantiene todo centrado */
+    align-items: center; 
+    gap: 10px;  /* Espacio equilibrado entre los elementos */
+    margin-top: 12rem;
 }
 
+/* Botones circulares de redes sociales */
+
+
 .wppBtn, .igBtn {
-    border-radius: 50%;
-    border: 2px solid white;
-    height: 80px;
-    width: 80px;
+
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;  /* Asegura que la imagen no se salga del contenedor */
 }
 
+.wppBtn img {
+    height: 100px;  /* Ajuste específico para WhatsApp */
+    width: auto;   /* Mantiene la proporción */
+}
+
+.igBtn img {
+    height: 80px;  /* Ajuste específico para Instagram */
+    width: auto;   /* Mantiene la proporción */
+}
+/* Slider */
 .containerSlider {
     display: flex;
-    flex-direction: column; /* Coloca los elementos uno encima del otro */
-    align-items: center; /* Centra los elementos dentro del contenedor */
+    flex-direction: column;
+    align-items: center;
 }
 
 ul, li {
@@ -36,7 +47,7 @@ ul, li {
 ul.slider {
     position: relative;
     width: 170px;
-    height: 170px; /* Ajusta la altura según sea necesario */
+    height: 170px;
 }
 
 ul.slider li {
@@ -46,43 +57,41 @@ ul.slider li {
     opacity: 0;
     width: inherit;
     height: inherit;
-    transition: opacity 0.5s ease;
+    transition: opacity 0.5s ease-in-out;
 }
 
 ul.slider li img {
     width: 100%;
     height: 170px;
     object-fit: cover;
+    border-radius: 15px;
 }
 
 ul.slider li.visibleSlide {
-    opacity: 1; /* Solo el slide visible tiene opacidad */
+    opacity: 1;
 }
 
 .menuSlider {
-    display: flex; /* Asegura que los botones del slider se alineen en línea */
-    justify-content: center; /* Centra los botones del slider */
-    margin-top: 5px; /* Espacio arriba de los botones */
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
 }
 
 .menuSlider li {
     display: inline-block;
-    margin: 0 5px; /* Espacio entre los botones */
+    margin: 0 5px;
 }
 
 .menuSlider li a {
+    text-align: center;
     display: inline-block;
-    color: white;
+    color: black;
     text-decoration: none;
-    background-color: green;
-    padding: 10px;
-    width: 30px; /* Aumenta el tamaño de los botones */
-    height: 30px; /* Aumenta el tamaño de los botones */
+    background-color: white;
+    padding: 5px;
+    width: 20px;
+    height: 20px;
     font-size: 20px;
     border-radius: 100%;
-    transition: background-color 0.3s; /* Agrega una transición para el efecto hover */
-}
-
-.menuSlider li a:hover {
-    background-color: darkgreen; /* Cambia el color al pasar el mouse */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
