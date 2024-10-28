@@ -25,11 +25,14 @@
 .wppBtn img {
     height: 100px;  /* Ajuste específico para WhatsApp */
     width: auto;   /* Mantiene la proporción */
+
 }
 
 .igBtn img {
     height: 80px;  /* Ajuste específico para Instagram */
     width: auto;   /* Mantiene la proporción */
+
+
 }
 /* Slider */
 .containerSlider {

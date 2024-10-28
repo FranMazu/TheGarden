@@ -4,16 +4,16 @@ body {
     box-sizing: border-box;
     font-family: 'catchy mager'; /* o cualquier fuente de tu preferencia */
     color: #000000; /* Color de texto clásico */
-    background: linear-gradient(to bottom, #67be9b 0%, #5fbf90 30% ,#5fbf90 50%,#5fbf90 65%,#000000 100%);    height: 100vh; /* Asegúrate de que el body ocupe toda la altura de la ventana */
+    background: linear-gradient(to bottom, #8FC297 0%, #8FC297 30% ,#8FC297 50%,#8FC297 65%,#000000 100%);    height: 100vh; /* Asegúrate de que el body ocupe toda la altura de la ventana */
     overflow-x: hidden; /* Evita solo el desplazamiento horizontal */    
     background-position: center top;
     background-attachment:fixed;
     background-size:cover;
+    margin: 0;           /* Elimina márgenes que pueden causar desplazamientos */
 }
 
 html, body {
     height: 100%;
     margin: 0;
-    
 }
 
