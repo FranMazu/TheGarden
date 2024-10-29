@@ -6,18 +6,14 @@
     background-color: rgba(117, 164, 112, 0.7);
     text-align: center;
     padding: 5px 0;
-    margin: 5px;
+    margin: 10px;
     border-radius: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
     z-index: 1000; /* Asegura que el header esté por encima de otros elementos */
 }
 
-.headerTitleContainer {
-    font-size: 45px; 
-}
-
 .headerTitle {
-    font-size: 2.3rem; 
+    font-size: 2rem; 
     font-weight: bold;
     margin: 0;
     font-family: 'Bai Jamjuree';
@@ -40,14 +36,14 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 5px;
+    gap: 3px;
 }
 
 .navBtns {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 5px;
+    gap: 3px;
     padding: 2px;
     
 }
@@ -56,11 +52,6 @@
     background-color: white;
     border-radius: 5px;
     border: none;
-    font-size: 20px;
+    font-size: 18px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
-
-/* Ajuste para el contenido principal */
-body {
-    margin-top: 80px; /* Ajusta este valor según la altura de tu header */
 }
