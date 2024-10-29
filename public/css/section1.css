@@ -1,6 +1,6 @@
 /* Contenedor principal */
 .containerSection1 {
-    margin: 0;
+    margin-bottom: 20px;
 }
 
 .section1 {
@@ -15,7 +15,6 @@
 
 
 .wppBtn, .igBtn {
-
     display: flex;
     justify-content: center;
     align-items: center;
