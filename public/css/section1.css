@@ -11,16 +11,6 @@
     margin-top: 8rem;
 }
 
-/* Botones circulares de redes sociales */
-
-
-.wppBtn, .igBtn {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;  /* Asegura que la imagen no se salga del contenedor */
-}
-
 /* Slider */
 .containerSlider {
     display: flex;
@@ -56,6 +46,8 @@ ul.slider li img {
     height: 170px;
     object-fit: cover;
     border-radius: 15px;
+    border: 2px green solid;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
 }
 
 ul.slider li.visibleSlide {
@@ -115,4 +107,7 @@ ul.slider li.visibleSlide {
 
 .bi-tags{
     font-size: 2rem;
+}
+.asesoramientoPersonalizado p {
+    margin: 0.5 1em; 
 }

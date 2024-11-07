@@ -1,0 +1,25 @@
+footer{
+    background-color: #FFB74D;
+}
+
+.contactanos{
+    text-align: center;
+}
+
+.nuestrasRedes{
+    text-align: center;
+}
+
+.redes {
+    display: flex;
+    font-size: 30px;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 30%;
+    margin-right: 30%;
+    text-decoration: none;
+}
+
+.redes a {
+    color: black;
+}
