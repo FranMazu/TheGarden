@@ -45,13 +45,12 @@
     justify-content: center;
     gap: 3px;
     padding: 2px;
-    
 }
 
 .btnNavegation {
     background-color: white;
     border-radius: 5px;
     border: none;
-    font-size: 18px;
+    font-size: 16px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
