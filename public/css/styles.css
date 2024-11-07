@@ -3,12 +3,25 @@ body {
     padding: 0;
     box-sizing: border-box;
     font-family: 'catchy mager'; /* o cualquier fuente de tu preferencia */
+    background: linear-gradient(to bottom, #8FC297 0%, #8EC394 40%, #8FC297 60%, #8EC394 100%);
     color: #000000; /* Color de texto clásico */
-    background: linear-gradient(to bottom, #8FC297 0%, #8EC394 40%, #8FC297 60%, #8EC394 100%);    overflow-x: hidden; /* Evita solo el desplazamiento horizontal */    
     background-position: center top;
-    background-attachment:fixed;
-    background-size:cover;
-    margin: 0;           /* Elimina márgenes que pueden causar desplazamientos */
+    background-size: cover;
+    background-attachment: scroll; /* Cambia de fixed a scroll */
+    margin: 0;
+    overflow-x: hidden;
+}
+
+body {
+    background-position: center top;
+
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
 html, body {
