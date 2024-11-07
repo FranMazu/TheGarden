@@ -27,7 +27,6 @@
     flex-direction: column;
     align-items: center;
     width: 90%;
-
 }
 
 ul, li {
@@ -39,7 +38,7 @@ ul, li {
 ul.slider {
     position: relative;
     width: 100%;
-    height:180px;
+    height: 180px;
 }
 
 ul.slider li {
